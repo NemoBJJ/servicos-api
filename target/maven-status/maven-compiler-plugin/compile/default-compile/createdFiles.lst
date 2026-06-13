@@ -3,5 +3,6 @@ com\gestex\servicos\service\ServicoAgendamentoService.class
 com\gestex\servicos\repository\ServicoAgendamentoRepository.class
 com\gestex\servicos\ServicosApiApplication.class
 com\gestex\servicos\config\CorsConfig.class
+com\gestex\servicos\controller\HealthController.class
 com\gestex\servicos\model\AgendamentoRequestDTO.class
 com\gestex\servicos\controller\ServicoController.class
