@@ -17,7 +17,8 @@ public class CorsConfig implements WebMvcConfigurer {
                     "http://localhost:3003",
                     "http://localhost:3004",
                     "http://localhost:3005",
-                    "https://gestexservicos.netlify.app"   // <-- ESSA É A QUE FALTAVA!
+                    "https://gestexservicos.netlify.app",
+                    "https://servicos.neemindev.com"            // ✅ NOVO DOMÍNIO
                 )
                 .allowedMethods("GET", "POST", "PUT", "DELETE", "OPTIONS", "PATCH")
                 .allowedHeaders("*")
